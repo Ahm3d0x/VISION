@@ -15,7 +15,7 @@
 [![Expo](https://img.shields.io/badge/Expo-Mobile%20Companion-000020?logo=expo&logoColor=white)](https://expo.dev/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-[English](#overview) • [العربية](#نظرة-عامة-عن-المشروع) • [Architecture](#core-architecture) • [Features](#key-capabilities) • [Installation](#getting-started) • [Remote Companion](#vision-remote-mobile-gateway)
+[Overview](#overview) • [Visual Showcase](#visual-showcase) • [Architecture](#core-architecture) • [Capabilities](#key-capabilities) • [Tech Stack](#tech-stack) • [Getting Started](#getting-started) • [Mobile Companion](#5-vision-remote-mobile-companion-app)
 
 </div>
 
@@ -34,20 +34,12 @@ VISION is **not** a basic chatbot, a wrapper around an LLM API, or a simple voic
 Understand ➔ Plan ➔ Permission Gate ➔ Act ➔ Observe ➔ Verify ➔ Respond
 ```
 
----
-
-## نظرة عامة عن المشروع
-
-**VISION** هو **نظام تشغيل ذكاء اصطناعي مكتبي متكامل (Personal AI Operating System)** ومساعد شخصي مستقل فائق التطور، مستوحى من طموح شخصية JARVIS ولكن بهندسة برمجية أصلية وهوية تقنية مستقلة ومتقدمة.
-
-صُمم VISION ليتحول من مجرد "شات بوت يولد نصوصاً" إلى **منظومة متكاملة تفهم النية البشرية الطبيعية — باللغة العربية الفصحى، العامية المصرية الدقيقة، والإنجليزية التقنية — وتحولها إلى إجراءات حقيقية، موثوقة وآمنة على نظام التشغيل وتطبيقات سطح المكتب والويب**.
-
-### 🌟 أبرز الركائز الأساسية للمشروع:
-- **🗣️ ذكاء صوتي ثنائي فوري**: استماع وتحدث بالعربية والانجليزية محلياً بدون إنترنت عبر `whisper.cpp` و `piper-tts` مع كاشف نطق ذكي (VAD).
-- **👁️ إدراك بصري وتفاعل مع الشاشة**: قراءة محتوى الشاشة والنوافذ النشطة وتحليلها بالذكاء الاصطناعي متعدد الوسائط (Multimodal Vision).
-- **🛠️ منصات أدوات متكاملة (Tool Hubs)**: التحكم في الملفات، سطر الأوامر (Terminal)، متصفح الويب، مستندات PDF/Word، جهات الاتصال، ورسائل WhatsApp.
-- **🛡️ أمان صارم وصلاحيات متعددة المستويات (5-Tier Security)**: الذكاء الاصطناعي لا يملك تصريحاً مباشراً؛ كل عملية تمر عبر مصفوفة حماية وتأكيد بشري عند العمليات الحساسة.
-- **📱 رفيق الموبايل (VISION Remote)**: تطبيق للهواتف الذكية بتقنية React Native / Expo يتصل تلقائياً بالجهاز عبر الشبكة المحلية للمحادثة والموافقة على العمليات عن بُعد.
+### 🌟 Core System Pillars
+- **🗣️ Ultra-Low Latency Bilingual Voice**: Offline speech-to-text and natural neural TTS with full support for Arabic (Modern Standard & Egyptian dialect) and technical English via `whisper.cpp` & `piper-tts` with real-time Silero VAD.
+- **👁️ Multimodal Screen Perception**: Real-time desktop capture and deep visual reasoning using vision LLMs to inspect active application windows and UI components.
+- **🛠️ Modular Tool Hubs**: Safe sandboxed filesystem operations, interactive terminal execution, web automation, document compilation (PDF/DOCX), and WhatsApp communications.
+- **🛡️ 5-Tier Permission Gatekeeper**: Zero unverified privileged executions — sensitive operations require explicit user approval (`L0` to `L4`).
+- **📱 VISION Remote Companion**: Cross-platform mobile gateway built with React Native / Expo featuring zero-conf local pairing, remote voice commands, and biometric approvals.
 
 ---
 
