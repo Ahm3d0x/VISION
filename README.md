@@ -38,15 +38,27 @@ Understand ➔ Plan ➔ Permission Gate ➔ Act ➔ Observe ➔ Verify ➔ Respo
 
 ## نظرة عامة عن المشروع
 
-**VISION** هو **نظام تشغيل ذكاء اصطناعي مكتبي متكامل (Personal AI Operating System)** ومساعد شخصي مستقل، مستوحى من طموح شخصية JARVIS ولكن بهوية وهندسة برمجية متكاملة ومستقلة.
+**VISION** هو **نظام تشغيل ذكاء اصطناعي مكتبي متكامل (Personal AI Operating System)** ومساعد شخصي مستقل فائق التطور، مستوحى من طموح شخصية JARVIS ولكن بهندسة برمجية أصلية وهوية تقنية مستقلة ومتقدمة.
 
-صُمم VISION ليتحول من مجرد "شات بوت يولد نصوصاً" إلى **نظام رقمي قادر على فهم نية المستخدم الطبيعية (باللغة العربية، العامية المصرية، والإنجليزية التقنية) وتحويلها إلى إجراءات حقيقية، موثوقة وآمنة على جهاز الكمبيوتر والويب والأنظمة المتصلة**.
+صُمم VISION ليتحول من مجرد "شات بوت يولد نصوصاً" إلى **منظومة متكاملة تفهم النية البشرية الطبيعية — باللغة العربية الفصحى، العامية المصرية الدقيقة، والإنجليزية التقنية — وتحولها إلى إجراءات حقيقية، موثوقة وآمنة على نظام التشغيل وتطبيقات سطح المكتب والويب**.
+
+### 🌟 أبرز الركائز الأساسية للمشروع:
+- **🗣️ ذكاء صوتي ثنائي فوري**: استماع وتحدث بالعربية والانجليزية محلياً بدون إنترنت عبر `whisper.cpp` و `piper-tts` مع كاشف نطق ذكي (VAD).
+- **👁️ إدراك بصري وتفاعل مع الشاشة**: قراءة محتوى الشاشة والنوافذ النشطة وتحليلها بالذكاء الاصطناعي متعدد الوسائط (Multimodal Vision).
+- **🛠️ منصات أدوات متكاملة (Tool Hubs)**: التحكم في الملفات، سطر الأوامر (Terminal)، متصفح الويب، مستندات PDF/Word، جهات الاتصال، ورسائل WhatsApp.
+- **🛡️ أمان صارم وصلاحيات متعددة المستويات (5-Tier Security)**: الذكاء الاصطناعي لا يملك تصريحاً مباشراً؛ كل عملية تمر عبر مصفوفة حماية وتأكيد بشري عند العمليات الحساسة.
+- **📱 رفيق الموبايل (VISION Remote)**: تطبيق للهواتف الذكية بتقنية React Native / Expo يتصل تلقائياً بالجهاز عبر الشبكة المحلية للمحادثة والموافقة على العمليات عن بُعد.
 
 ---
 
 ## Visual Showcase
 
 <div align="center">
+
+### Panoramic AI Workstation HUD
+![Futuristic Vision AI HUD Dashboard](./UIPNG/Futuristic%20Vision%20AI%20HUD%20Dashboard.png)
+
+---
 
 ### Holographic Command Center HUD
 ![VISION AI Command Center HUD](./UIPNG/VISION%20AI%20Command%20Center%20HUD.png)
@@ -65,6 +77,11 @@ Understand ➔ Plan ➔ Permission Gate ➔ Act ➔ Observe ➔ Verify ➔ Respo
 
 ### Real-Time Reasoning & Plan Evaluation
 ![Vision AI Thinking Dashboard](./UIPNG/Vision%20AI%20Thinking%20Dashboard.png)
+
+---
+
+### System Telemetry & Core Matrix Interface
+![VISION AI Dashboard Interface](./UIPNG/VISION%20AI%20Dashboard%20Interface.png)
 
 </div>
 
