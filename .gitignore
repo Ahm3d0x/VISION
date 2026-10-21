@@ -1,0 +1,74 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build Outputs
+dist/
+dist-electron/
+release/
+*.tsbuildinfo
+out/
+
+# Python Virtual Environments & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Model Weights & Compiled Binaries (Large binary assets > 100MB)
+models/**/*.bin
+models/**/*.onnx
+models/**/*.exe
+models/**/*.dll
+models/**/*.so
+models/**/*.dylib
+models/**/*.pt
+models/**/*.safetensors
+models/stt/whisper_cpp/Release/
+!models/README.md
+
+# Logs & Diagnostics
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+services/*.log
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Private User Data & Contacts
+*.vcf
+*.contacts.json
+
+# Temporary local testing & media artifacts
+test_*.wav
+test_*.mp3
+test_*.webm
+test_out.*
+*.tmp
+
+# Mobile Companion App (vision-remote)
+vision-remote/.expo/
+vision-remote/web-build/
+vision-remote/.metro-health-check*

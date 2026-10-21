@@ -1,0 +1,314 @@
+[
+  {
+    "category": "immediate_ack",
+    "text": "حاضر يا أحمد، شغال عليها...",
+    "file": "immediate_ack_01_32807d11.wav",
+    "rel_path": "/audio/narrations/immediate_ack_01_32807d11.wav"
+  },
+  {
+    "category": "immediate_ack",
+    "text": "تمام يا فندم، ثواني...",
+    "file": "immediate_ack_02_4510dcb0.wav",
+    "rel_path": "/audio/narrations/immediate_ack_02_4510dcb0.wav"
+  },
+  {
+    "category": "immediate_ack",
+    "text": "أمرك يا باشا، جاري التنفيذ...",
+    "file": "immediate_ack_03_40d6d5a2.wav",
+    "rel_path": "/audio/narrations/immediate_ack_03_40d6d5a2.wav"
+  },
+  {
+    "category": "immediate_ack",
+    "text": "معاك يا أحمد، حالاً...",
+    "file": "immediate_ack_04_74d0e859.wav",
+    "rel_path": "/audio/narrations/immediate_ack_04_74d0e859.wav"
+  },
+  {
+    "category": "immediate_ack",
+    "text": "واضح، ببدأ فيها فوراً...",
+    "file": "immediate_ack_05_7a0a465f.wav",
+    "rel_path": "/audio/narrations/immediate_ack_05_7a0a465f.wav"
+  },
+  {
+    "category": "immediate_ack",
+    "text": "ثواني وهتكون جاهزة...",
+    "file": "immediate_ack_06_4ee298f4.wav",
+    "rel_path": "/audio/narrations/immediate_ack_06_4ee298f4.wav"
+  },
+  {
+    "category": "immediate_ack",
+    "text": "تحت أمرك، شغال عليها دلوقتي...",
+    "file": "immediate_ack_07_1070a5e2.wav",
+    "rel_path": "/audio/narrations/immediate_ack_07_1070a5e2.wav"
+  },
+  {
+    "category": "immediate_ack",
+    "text": "تمام، من عيوني...",
+    "file": "immediate_ack_08_ae621645.wav",
+    "rel_path": "/audio/narrations/immediate_ack_08_ae621645.wav"
+  },
+  {
+    "category": "immediate_ack",
+    "text": "على طول يا أحمد...",
+    "file": "immediate_ack_09_dfda45ca.wav",
+    "rel_path": "/audio/narrations/immediate_ack_09_dfda45ca.wav"
+  },
+  {
+    "category": "immediate_ack",
+    "text": "شغال يا فندم، ثواني وتخلص...",
+    "file": "immediate_ack_10_e1f5f3c7.wav",
+    "rel_path": "/audio/narrations/immediate_ack_10_e1f5f3c7.wav"
+  },
+  {
+    "category": "immediate_ack",
+    "text": "أمرك، بنفذ المطلوب حالاً...",
+    "file": "immediate_ack_11_a12dfcf0.wav",
+    "rel_path": "/audio/narrations/immediate_ack_11_a12dfcf0.wav"
+  },
+  {
+    "category": "immediate_ack",
+    "text": "Right away, Ahmed.",
+    "file": "immediate_ack_12_4072993f.wav",
+    "rel_path": "/audio/narrations/immediate_ack_12_4072993f.wav"
+  },
+  {
+    "category": "immediate_ack",
+    "text": "Got it, working on it now.",
+    "file": "immediate_ack_13_d48c57aa.wav",
+    "rel_path": "/audio/narrations/immediate_ack_13_d48c57aa.wav"
+  },
+  {
+    "category": "immediate_ack",
+    "text": "On it, Ahmed, just a moment.",
+    "file": "immediate_ack_14_278bb3c9.wav",
+    "rel_path": "/audio/narrations/immediate_ack_14_278bb3c9.wav"
+  },
+  {
+    "category": "analyzing",
+    "text": "بفحص طلبك وببدأ التنفيذ...",
+    "file": "analyzing_01_3117c4e5.wav",
+    "rel_path": "/audio/narrations/analyzing_01_3117c4e5.wav"
+  },
+  {
+    "category": "analyzing",
+    "text": "تمام، برتب الخطوات المطلوبة...",
+    "file": "analyzing_02_b80eb6d4.wav",
+    "rel_path": "/audio/narrations/analyzing_02_b80eb6d4.wav"
+  },
+  {
+    "category": "analyzing",
+    "text": "دقيقة برتب الإجراء المناسب...",
+    "file": "analyzing_03_eaf0ff5a.wav",
+    "rel_path": "/audio/narrations/analyzing_03_eaf0ff5a.wav"
+  },
+  {
+    "category": "analyzing",
+    "text": "بفهم التفاصيل وأنفذ حالاً...",
+    "file": "analyzing_04_8c348e0a.wav",
+    "rel_path": "/audio/narrations/analyzing_04_8c348e0a.wav"
+  },
+  {
+    "category": "analyzing",
+    "text": "بحلل الخطوات وبدخل في التنفيذ...",
+    "file": "analyzing_05_3024e529.wav",
+    "rel_path": "/audio/narrations/analyzing_05_3024e529.wav"
+  },
+  {
+    "category": "analyzing",
+    "text": "ثواني براجع المطلوب بالضبط...",
+    "file": "analyzing_06_eeb7e518.wav",
+    "rel_path": "/audio/narrations/analyzing_06_eeb7e518.wav"
+  },
+  {
+    "category": "analyzing",
+    "text": "تمام، شغال على تجهيز المهمة...",
+    "file": "analyzing_07_c9c8523e.wav",
+    "rel_path": "/audio/narrations/analyzing_07_c9c8523e.wav"
+  },
+  {
+    "category": "analyzing",
+    "text": "بشوف أنسب مسار للطلب...",
+    "file": "analyzing_08_c354edab.wav",
+    "rel_path": "/audio/narrations/analyzing_08_c354edab.wav"
+  },
+  {
+    "category": "thinking",
+    "text": "بشوف أفضل طريقة لتنفيذها...",
+    "file": "thinking_01_e82f2d6f.wav",
+    "rel_path": "/audio/narrations/thinking_01_e82f2d6f.wav"
+  },
+  {
+    "category": "thinking",
+    "text": "براجع الإجراءات لضمان دقة التنفيذ...",
+    "file": "thinking_02_a4f9edcf.wav",
+    "rel_path": "/audio/narrations/thinking_02_a4f9edcf.wav"
+  },
+  {
+    "category": "thinking",
+    "text": "ثواني برتب الأوامر المناسبة...",
+    "file": "thinking_03_e714b719.wav",
+    "rel_path": "/audio/narrations/thinking_03_e714b719.wav"
+  },
+  {
+    "category": "thinking",
+    "text": "تمام، بحدد أنسب خيار...",
+    "file": "thinking_04_8a1cfbfc.wav",
+    "rel_path": "/audio/narrations/thinking_04_8a1cfbfc.wav"
+  },
+  {
+    "category": "thinking",
+    "text": "بجهز الإجراء السليم دلوقتي...",
+    "file": "thinking_05_4c07eeed.wav",
+    "rel_path": "/audio/narrations/thinking_05_4c07eeed.wav"
+  },
+  {
+    "category": "thinking",
+    "text": "دقيقة برتب منطق الحل...",
+    "file": "thinking_06_76feceb9.wav",
+    "rel_path": "/audio/narrations/thinking_06_76feceb9.wav"
+  },
+  {
+    "category": "thinking",
+    "text": "بفحص الخيارات المتاحة للنظام...",
+    "file": "thinking_07_1c8eacac.wav",
+    "rel_path": "/audio/narrations/thinking_07_1c8eacac.wav"
+  },
+  {
+    "category": "screen_vision",
+    "text": "بفحص الشاشة بصرياً دلوقتي...",
+    "file": "screen_vision_01_a379b289.wav",
+    "rel_path": "/audio/narrations/screen_vision_01_a379b289.wav"
+  },
+  {
+    "category": "screen_vision",
+    "text": "باخد لقطة وبحلل اللي ظاهر قدامك...",
+    "file": "screen_vision_02_f62337b6.wav",
+    "rel_path": "/audio/narrations/screen_vision_02_f62337b6.wav"
+  },
+  {
+    "category": "screen_vision",
+    "text": "ثواني وبشوف محتوى الشاشة بنموذج الرؤية...",
+    "file": "screen_vision_03_c6fa649b.wav",
+    "rel_path": "/audio/narrations/screen_vision_03_c6fa649b.wav"
+  },
+  {
+    "category": "screen_vision",
+    "text": "بقرأ العناصر والنوافذ المفتوحة...",
+    "file": "screen_vision_04_31408c14.wav",
+    "rel_path": "/audio/narrations/screen_vision_04_31408c14.wav"
+  },
+  {
+    "category": "screen_vision",
+    "text": "جاري التقاط الشاشة وتحليلها...",
+    "file": "screen_vision_05_990c37ca.wav",
+    "rel_path": "/audio/narrations/screen_vision_05_990c37ca.wav"
+  },
+  {
+    "category": "execute_command",
+    "text": "بشغل الأمر المطلوب في النظام...",
+    "file": "execute_command_01_6a88877b.wav",
+    "rel_path": "/audio/narrations/execute_command_01_6a88877b.wav"
+  },
+  {
+    "category": "execute_command",
+    "text": "تمام، بنفذ الأمر عبر الكونسول...",
+    "file": "execute_command_02_73451598.wav",
+    "rel_path": "/audio/narrations/execute_command_02_73451598.wav"
+  },
+  {
+    "category": "execute_command",
+    "text": "ثواني والأمر يتنفذ...",
+    "file": "execute_command_03_0bd1a59f.wav",
+    "rel_path": "/audio/narrations/execute_command_03_0bd1a59f.wav"
+  },
+  {
+    "category": "execute_command",
+    "text": "جاري تنفيذ الأمر ومتابعة النتيجة...",
+    "file": "execute_command_04_d2ed6f26.wav",
+    "rel_path": "/audio/narrations/execute_command_04_d2ed6f26.wav"
+  },
+  {
+    "category": "execute_command",
+    "text": "أمرك، بشغل الأمر في الخلفية...",
+    "file": "execute_command_05_08d8858c.wav",
+    "rel_path": "/audio/narrations/execute_command_05_08d8858c.wav"
+  },
+  {
+    "category": "step_success",
+    "text": "الخطوة دي تمت، ومكملين...",
+    "file": "step_success_01_9edbfd15.wav",
+    "rel_path": "/audio/narrations/step_success_01_9edbfd15.wav"
+  },
+  {
+    "category": "step_success",
+    "text": "تمام، دي خلصت وداخل على اللي بعدها...",
+    "file": "step_success_02_9cc8783a.wav",
+    "rel_path": "/audio/narrations/step_success_02_9cc8783a.wav"
+  },
+  {
+    "category": "step_success",
+    "text": "تمام كدة، شغال على باقي الإجراء...",
+    "file": "step_success_03_ee48ef34.wav",
+    "rel_path": "/audio/narrations/step_success_03_ee48ef34.wav"
+  },
+  {
+    "category": "step_success",
+    "text": "تمام التمام، مكمل باقي الخطوات...",
+    "file": "step_success_04_ab95a949.wav",
+    "rel_path": "/audio/narrations/step_success_04_ab95a949.wav"
+  },
+  {
+    "category": "step_success",
+    "text": "الخطوة دي تمام، بنتقل للنقطة التالية...",
+    "file": "step_success_05_291c546c.wav",
+    "rel_path": "/audio/narrations/step_success_05_291c546c.wav"
+  },
+  {
+    "category": "step_success",
+    "text": "تمام، مستمر في التنفيذ...",
+    "file": "step_success_06_60fdbe76.wav",
+    "rel_path": "/audio/narrations/step_success_06_60fdbe76.wav"
+  },
+  {
+    "category": "task_done",
+    "text": "كده تمام يا أحمد، نفذت المطلوب.",
+    "file": "task_done_01_927d0e53.wav",
+    "rel_path": "/audio/narrations/task_done_01_927d0e53.wav"
+  },
+  {
+    "category": "task_done",
+    "text": "خلصت كل الإجراءات بنجاح يا باشا.",
+    "file": "task_done_02_96e751d2.wav",
+    "rel_path": "/audio/narrations/task_done_02_96e751d2.wav"
+  },
+  {
+    "category": "task_done",
+    "text": "تمام يا أحمد، العملية اكتملت بالكامل.",
+    "file": "task_done_03_a5d971f3.wav",
+    "rel_path": "/audio/narrations/task_done_03_a5d971f3.wav"
+  },
+  {
+    "category": "task_done",
+    "text": "جاهز يا فندم، نفذت المطلوب كله.",
+    "file": "task_done_04_e94334ce.wav",
+    "rel_path": "/audio/narrations/task_done_04_e94334ce.wav"
+  },
+  {
+    "category": "task_done",
+    "text": "تمام، كل المهام خلصت بنجاح.",
+    "file": "task_done_05_b4868793.wav",
+    "rel_path": "/audio/narrations/task_done_05_b4868793.wav"
+  },
+  {
+    "category": "task_done",
+    "text": "كده جاهز ومستعد لأي أمر جديد يا أحمد.",
+    "file": "task_done_06_9d6f421d.wav",
+    "rel_path": "/audio/narrations/task_done_06_9d6f421d.wav"
+  },
+  {
+    "category": "task_done",
+    "text": "All set, Ahmed! Finished.",
+    "file": "task_done_07_df7a343e.wav",
+    "rel_path": "/audio/narrations/task_done_07_df7a343e.wav"
+  }
+]

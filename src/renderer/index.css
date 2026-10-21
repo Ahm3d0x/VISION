@@ -1,0 +1,286 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --vision-bg: #070A0F;
+    --vision-surface: #0B0F16;
+    --vision-panel: #0F141C;
+    --vision-elevated: #131923;
+    --vision-border: #202A36;
+    --vision-border-active: #00D9FF;
+    --vision-text: #F2F7FA;
+    --vision-text-secondary: #9AA9B8;
+    --vision-text-muted: #657485;
+    --vision-cyan: #00D9FF;
+    --vision-teal: #00AFC1;
+    --vision-gold: #F5B700;
+  }
+
+  body {
+    background-color: var(--vision-bg);
+    color: var(--vision-text);
+    font-family: 'Inter', 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    user-select: text;
+    -webkit-user-select: text;
+    overflow: hidden;
+    background-image: 
+      radial-gradient(circle at 50% 35%, rgba(0, 162, 255, 0.12) 0%, rgba(4, 8, 18, 0.85) 60%, #03060f 100%),
+      linear-gradient(to right, rgba(0, 217, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(0, 217, 255, 0.03) 1px, transparent 1px);
+    background-size: 100% 100%, 32px 32px, 32px 32px;
+  }
+
+  ::selection {
+    background: rgba(0, 217, 255, 0.4);
+    color: #ffffff;
+  }
+
+  /* Custom HUD Technical Scrollbar */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgba(4, 8, 18, 0.8);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 217, 255, 0.2);
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 217, 255, 0.5);
+    box-shadow: 0 0 8px rgba(0, 217, 255, 0.6);
+  }
+}
+
+/* Technical HUD Components */
+.hud-border {
+  border: 1px solid rgba(0, 217, 255, 0.2);
+}
+
+.hud-border-active {
+  border: 1px solid #00D9FF;
+  box-shadow: 0 0 15px rgba(0, 217, 255, 0.35);
+}
+
+.hud-panel {
+  background: rgba(8, 17, 32, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 217, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.hud-panel:hover {
+  border-color: rgba(0, 217, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(0, 217, 255, 0.08);
+}
+
+.hud-panel-elevated {
+  background: rgba(11, 22, 43, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 217, 255, 0.25);
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.45);
+}
+
+.hud-glow-cyan {
+  box-shadow: 0 0 20px rgba(0, 217, 255, 0.4);
+}
+
+.hud-glow-gold {
+  box-shadow: 0 0 20px rgba(245, 183, 0, 0.4);
+}
+
+/* Futuristic HUD Corner Cut / Reticle */
+.hud-corner {
+  position: relative;
+}
+
+.hud-corner::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid #00D9FF;
+  border-left: 2px solid #00D9FF;
+  pointer-events: none;
+}
+
+.hud-corner::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  width: 8px;
+  height: 8px;
+  border-bottom: 2px solid #00D9FF;
+  border-right: 2px solid #00D9FF;
+  pointer-events: none;
+}
+
+/* Subtle Animated Scanlines */
+.hud-scanline-overlay {
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    rgba(0, 217, 255, 0.02) 51%,
+    transparent 52%
+  );
+  background-size: 100% 4px;
+}
+
+/* Radar Sweep */
+@keyframes radarSweep {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.radar-sweep-effect {
+  animation: radarSweep 6s linear infinite;
+  transform-origin: center center;
+}
+
+/* Pulsing Glow Animation */
+@keyframes pulseGlowRing {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+    box-shadow: 0 0 10px rgba(0, 217, 255, 0.4);
+  }
+  50% {
+    transform: scale(1.04);
+    opacity: 1;
+    box-shadow: 0 0 25px rgba(0, 217, 255, 0.8), 0 0 40px rgba(0, 217, 255, 0.4);
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0.8;
+    box-shadow: 0 0 10px rgba(0, 217, 255, 0.4);
+  }
+}
+
+.hud-glow-pulse {
+  animation: pulseGlowRing 3s ease-in-out infinite;
+}
+
+/* Laser Scanline traveling vertically */
+@keyframes verticalScan {
+  0% {
+    top: -10%;
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    top: 110%;
+    opacity: 0;
+  }
+}
+
+.hud-scanner-beam {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(0, 217, 255, 0.8), #FFFFFF, rgba(0, 217, 255, 0.8), transparent);
+  box-shadow: 0 0 12px #00D9FF, 0 0 20px #00D9FF;
+  animation: verticalScan 4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  pointer-events: none;
+}
+
+/* Rotating Compass Crosshairs */
+@keyframes spinDashed {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinDashedReverse {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.hud-spin-clockwise {
+  animation: spinDashed 15s linear infinite;
+}
+
+.hud-spin-counter {
+  animation: spinDashedReverse 20s linear infinite;
+}
+
+/* Hologram Shimmer Text */
+@keyframes holoShimmer {
+  0% {
+    text-shadow: 0 0 8px rgba(0, 217, 255, 0.6);
+  }
+  50% {
+    text-shadow: 0 0 18px rgba(0, 217, 255, 1), 0 0 30px rgba(56, 225, 255, 0.8);
+  }
+  100% {
+    text-shadow: 0 0 8px rgba(0, 217, 255, 0.6);
+  }
+}
+
+.holo-text-shimmer {
+  animation: holoShimmer 2.5s ease-in-out infinite;
+}
+
+/* Animated Sine / Dash Flow for telemetry */
+@keyframes dashStream {
+  to {
+    stroke-dashoffset: -100;
+  }
+}
+
+.dash-stream-effect {
+  stroke-dasharray: 6 4;
+  animation: dashStream 3s linear infinite;
+}
+
+/* KaTeX Formula Styling for HUD */
+.katex-display {
+  margin: 1rem 0 !important;
+  padding: 0.75rem 1rem !important;
+  background: rgba(6, 12, 24, 0.75) !important;
+  border: 1px solid rgba(0, 217, 255, 0.25) !important;
+  border-radius: 0.75rem !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  color: #00D9FF !important;
+  box-shadow: inset 0 0 16px rgba(0, 217, 255, 0.06);
+}
+
+.katex {
+  font-size: 1.05em !important;
+  color: #00D9FF !important;
+}
+
+.katex-html {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+
